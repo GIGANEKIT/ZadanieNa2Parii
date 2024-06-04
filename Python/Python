@@ -1,0 +1,23 @@
+
+using System;
+
+class MainClass {
+    public static void Main (string[] args) {
+        Console.Write("Введите фразу: ");
+        string phrase = Console.ReadLine();
+        int lettersCount = 0;
+
+        foreach (char c in phrase) {
+            if (Char.IsLetter(c)) {
+                lettersCount++;
+            }
+        }
+
+        Console.WriteLine("Количество букв во фразе: " + lettersCount);
+
+        if (lettersCount > 2) {
+            Console.WriteLine("МнОгА БуКаВ g(((");
+        } else {
+            Console.WriteLine("МаЛо БуКаВ g");
+        }
+    }
