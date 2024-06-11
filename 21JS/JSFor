@@ -1,0 +1,6 @@
+let f = 1;
+
+while(f < 101){
+  console.log(f);
+  f++
+}
