@@ -1,0 +1,2 @@
+let arr = [1, 23, 5, 2, 52, 5, 62, 25];
+console.log(arr);
